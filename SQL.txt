@@ -1,0 +1,11 @@
+create table employee(
+id int not null auto_increment,
+name VARCHAR(15) not null,
+email VARCHAR(100),
+tel VARCHAR(12) not null,
+dateOfEmp date not null,
+PRIMARY KEY (id)
+);
+
+insert into employee values(1, '田中','email@com', '090000000', '2012-03-01');
+INSERT INTO employee (name, email, tel, dateOfEmp) VALUES ('鈴木', 'gmail@com', '09022223333', '1999-03-30');
